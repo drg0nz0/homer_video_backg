@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex"><!--[if IE]><link rel="icon" href="favicon.png"><![endif]--><title>homer</title><link href="css/chunk-3e818725.840dfbf7.css" rel="prefetch"><link href="css/chunk-692f1e76.0ed268e5.css" rel="prefetch"><link href="js/chunk-3e818725.393ca493.js" rel="prefetch"><link href="js/chunk-692f1e76.a8e8b2d3.js" rel="prefetch"><link href="css/app.a950da48.css" rel="preload" as="style"><link href="css/chunk-vendors.77fc7fd4.css" rel="preload" as="style"><link href="js/app.f74d4698.js" rel="preload" as="script"><link href="js/chunk-vendors.9da6c68c.js" rel="preload" as="script"><link href="css/chunk-vendors.77fc7fd4.css" rel="stylesheet"><link href="css/app.a950da48.css" rel="stylesheet"><link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png"><link rel="manifest" href="assets/manifest.json" crossorigin="use-credentials"><meta name="theme-color" content="#3367D6"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Homer Dashboard"><link rel="apple-touch-icon" href="assets/icons/icon-maskable.png"><link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#3367D6"><meta name="msapplication-TileImage" content="assets/icons/icon-any.png"><meta name="msapplication-TileColor" content="#000000"></head><body>
+    <style>
+#myVideo {
+  position: fixed;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw; 
+  min-height: 100vh;
+}
+@media (min-aspect-ratio: 16/9) {
+    #myVideo {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #myVideo { 
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #myVideo {
+        display: none;
+    }  
+    </style>
+    
+    <video autoplay muted loop id="myVideo">
+        <source src="video/video-back.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+
+    
+    <noscript><strong>We're sorry but homer doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.9da6c68c.js"></script><script src="js/app.f74d4698.js"></script></body></html>
